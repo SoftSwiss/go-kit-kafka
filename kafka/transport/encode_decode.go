@@ -3,7 +3,7 @@ package transport
 import (
 	"context"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 // DecodeRequestFunc extracts a user-domain request object from

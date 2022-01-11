@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-kit/log"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
-	"github.com/alebabai/go-kit-kafka/kafka/transport"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka/transport"
 )
 
 // KafkaHeadersCarrier satisfies both opentracing.TextMapWriter and opentracing.TextMapReader.

@@ -12,7 +12,7 @@ import (
 	"github.com/go-kit/kit/transport"
 	"github.com/go-kit/log"
 
-	kitkafka "github.com/alebabai/go-kit-kafka/kafka"
+	kitkafka "github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 type consumer interface {

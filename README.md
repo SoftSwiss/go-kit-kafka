@@ -2,27 +2,27 @@
 
 > Apache Kafka integration module for go-kit
 
-[![build](https://img.shields.io/github/workflow/status/alebabai/go-kit-kafka/CI)](https://github.com/alebabai/go-kit-kafka/actions?query=workflow%3ACI)
-[![version](https://img.shields.io/github/go-mod/go-version/alebabai/go-kit-kafka)](https://golang.org/)
-[![report](https://goreportcard.com/badge/github.com/alebabai/go-kit-kafka)](https://goreportcard.com/report/github.com/alebabai/go-kit-kafka)
-[![coverage](https://img.shields.io/codecov/c/github/alebabai/go-kit-kafka)](https://codecov.io/github/alebabai/go-kit-kafka)
-[![tag](https://img.shields.io/github/tag/alebabai/go-kit-kafka.svg)](https://github.com/alebabai/go-kit-kafka/tags)
-[![reference](https://pkg.go.dev/badge/github.com/alebabai/go-kit-kafka.svg)](https://pkg.go.dev/github.com/alebabai/go-kit-kafka)
+[![build](https://img.shields.io/github/workflow/status/SoftSwiss/go-kit-kafka/CI)](https://github.com/SoftSwiss/go-kit-kafka/actions?query=workflow%3ACI)
+[![version](https://img.shields.io/github/go-mod/go-version/SoftSwiss/go-kit-kafka)](https://golang.org/)
+[![report](https://goreportcard.com/badge/github.com/SoftSwiss/go-kit-kafka)](https://goreportcard.com/report/github.com/SoftSwiss/go-kit-kafka)
+[![coverage](https://img.shields.io/codecov/c/github/SoftSwiss/go-kit-kafka)](https://codecov.io/github/SoftSwiss/go-kit-kafka)
+[![tag](https://img.shields.io/github/tag/SoftSwiss/go-kit-kafka.svg)](https://github.com/SoftSwiss/go-kit-kafka/tags)
+[![reference](https://pkg.go.dev/badge/github.com/SoftSwiss/go-kit-kafka.svg)](https://pkg.go.dev/github.com/SoftSwiss/go-kit-kafka)
 
 ## Getting started
 
-Go modules are supported.  
+Go modules are supported.
 
 Manual install:
 
 ```bash
-go get -u github.com/alebabai/go-kit-kafka
+go get -u github.com/SoftSwiss/go-kit-kafka
 ```
 
 Golang import:
 
 ```go
-import "github.com/alebabai/go-kit-kafka/kafka"
+import "github.com/SoftSwiss/go-kit-kafka/kafka"
 ```
 
 ## Usage

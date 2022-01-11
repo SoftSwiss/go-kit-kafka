@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-kit/kit/endpoint"
 
-	"github.com/alebabai/go-kit-kafka/examples/common/consumer"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/consumer"
 )
 
 type Endpoints struct {

@@ -13,13 +13,13 @@ import (
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 
-	"github.com/alebabai/go-kit-kafka/examples/common/domain"
-	"github.com/alebabai/go-kit-kafka/examples/common/producer"
-	"github.com/alebabai/go-kit-kafka/examples/common/producer/endpoint"
-	"github.com/alebabai/go-kit-kafka/examples/common/producer/service"
-	"github.com/alebabai/go-kit-kafka/examples/common/producer/transport"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/domain"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/producer"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/producer/endpoint"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/producer/service"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/producer/transport"
 
-	"github.com/alebabai/go-kit-kafka/examples/confluent/producer/adapter"
+	"github.com/SoftSwiss/go-kit-kafka/examples/confluent/producer/adapter"
 )
 
 func fatal(logger log.Logger, err error) {

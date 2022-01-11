@@ -6,7 +6,7 @@ import (
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/transport"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 // Consumer wraps an endpoint and implements kafka.Handler.

@@ -13,15 +13,15 @@ import (
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 
-	kafkatransport "github.com/alebabai/go-kit-kafka/kafka/transport"
+	kafkatransport "github.com/SoftSwiss/go-kit-kafka/kafka/transport"
 
-	"github.com/alebabai/go-kit-kafka/examples/common/consumer"
-	"github.com/alebabai/go-kit-kafka/examples/common/consumer/endpoint"
-	"github.com/alebabai/go-kit-kafka/examples/common/consumer/service"
-	"github.com/alebabai/go-kit-kafka/examples/common/consumer/transport"
-	"github.com/alebabai/go-kit-kafka/examples/common/domain"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/consumer"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/consumer/endpoint"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/consumer/service"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/consumer/transport"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/domain"
 
-	"github.com/alebabai/go-kit-kafka/examples/sarama/consumer/adapter"
+	"github.com/SoftSwiss/go-kit-kafka/examples/sarama/consumer/adapter"
 )
 
 func fatal(logger log.Logger, err error) {

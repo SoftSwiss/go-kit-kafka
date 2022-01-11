@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-kit/kit/endpoint"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 // Producer wraps single Kafka topic for message producing

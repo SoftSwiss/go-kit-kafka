@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-kit/kit/transport"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 type ConsumerGroupHandler struct {

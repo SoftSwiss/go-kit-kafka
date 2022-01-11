@@ -3,7 +3,7 @@ package tracing
 import (
 	"context"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 type kafkaContextKey string

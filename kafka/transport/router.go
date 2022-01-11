@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 // Router represents mapping topic -> []kafka.Handler

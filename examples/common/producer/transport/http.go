@@ -9,7 +9,7 @@ import (
 
 	httptransport "github.com/go-kit/kit/transport/http"
 
-	"github.com/alebabai/go-kit-kafka/examples/common/producer/endpoint"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/producer/endpoint"
 )
 
 func NewHTTPHandler(endpoints endpoint.Endpoints) http.Handler {

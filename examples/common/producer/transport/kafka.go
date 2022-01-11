@@ -2,12 +2,12 @@ package transport
 
 import (
 	"context"
-	"github.com/alebabai/go-kit-kafka/kafka/tracing"
+	"github.com/SoftSwiss/go-kit-kafka/kafka/tracing"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
-	"github.com/alebabai/go-kit-kafka/kafka/transport"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka/transport"
 
-	"github.com/alebabai/go-kit-kafka/examples/common/producer/endpoint"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/producer/endpoint"
 )
 
 func NewKafkaProducer(handler kafka.Handler, topic string) *transport.Producer {

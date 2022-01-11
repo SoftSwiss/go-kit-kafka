@@ -6,7 +6,7 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/alebabai/go-kit-kafka/kafka"
+	"github.com/SoftSwiss/go-kit-kafka/kafka"
 )
 
 type Producer struct {

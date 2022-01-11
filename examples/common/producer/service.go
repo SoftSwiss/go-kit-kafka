@@ -3,7 +3,7 @@ package producer
 import (
 	"context"
 
-	"github.com/alebabai/go-kit-kafka/examples/common/domain"
+	"github.com/SoftSwiss/go-kit-kafka/examples/common/domain"
 )
 
 type Service interface {

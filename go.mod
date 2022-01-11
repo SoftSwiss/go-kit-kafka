@@ -1,4 +1,4 @@
-module github.com/alebabai/go-kit-kafka
+module github.com/SoftSwiss/go-kit-kafka
 
 go 1.16
 
